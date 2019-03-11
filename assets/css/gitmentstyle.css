@@ -130,7 +130,8 @@ a.gitment-header-issue-link:hover {
 .gitment-editor-avatar svg {
   width: 44px;
   height: 44px;
-  border-radius: 3px;
+  border-radius: 100%;
+  border: .1rem solid #57cc8a;
 }
 
 .gitment-editor-avatar .gitment-github-icon {
@@ -142,7 +143,8 @@ a.gitment-header-issue-link:hover {
 .gitment-editor-main {
   position: relative;
   border: 1px solid #CFD8DC;
-  border-radius: 0;
+  border-radius: 10px;
+  background-color: #fff;
 }
 
 .gitment-editor-main::before,
@@ -210,7 +212,8 @@ a.gitment-comment-name:visited {
   border-width: 0 1px;
   border-style: solid;
   border-color: transparent;
-  border-radius: 0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 
   white-space: nowrap;
   cursor: pointer;
@@ -288,8 +291,7 @@ a.gitment-editor-logout-link:hover {
 }
 
 .gitment-editor-body {
-  margin: 0;
-}
+  margin: 10px;
 
 .gitment-comment-body > *:first-child,
 .gitment-editor-preview > *:first-child {
@@ -450,6 +452,7 @@ a.gitment-editor-footer-tip:hover {
   font-size: 16px;
   line-height: 1.5;
   word-wrap: break-word;
+  background-color: #fff;
 }
 
 .gitment-markdown .pl-c {
